@@ -72,7 +72,7 @@ Step 18:- App (views.py)
         def send_test_email(request):
                 subject = 'Test Email'
                 message = 'This is a test email sent from Django.'
-                from_email = 'tridevx9@gmail.com'
+                from_email = 'vs2734514@gmail.com'
                       recipient_list = ['geuvizegebre-9696@yopmail.com']  # Replace with actual recipient email
 
                 try:
