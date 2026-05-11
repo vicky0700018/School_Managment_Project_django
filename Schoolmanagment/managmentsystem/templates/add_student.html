@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-4">Add Student</h2>
+
+<form method="POST" enctype="multipart/form-data" class="card p-4 shadow">
+    {% csrf_token %}
+
+    <input type="text" name="name" class="form-control mb-3" placeholder="Name">
+
+    <input type="text" name="student_class" class="form-control mb-3" placeholder="Class">
+
+    <input type="text" name="city" class="form-control mb-3" placeholder="City">
+
+    <input type="number" name="age" class="form-control mb-3" placeholder="Age">
+
+    <textarea name="address" class="form-control mb-3" placeholder="Address"></textarea>
+
+    <input type="text" name="roll_no" class="form-control mb-3" placeholder="Roll No">
+
+    <input type="email" name="email" class="form-control mb-3" placeholder="Email" required>
+
+    <input type="file" name="image" class="form-control mb-3">
+
+    <button type="submit" class="btn btn-success">Add Student</button>
+    <br>
+    <a href="{% url 'student_list' %}" class="btn btn-secondary">Back to List</a>
+</form>
+
+{% endblock %}

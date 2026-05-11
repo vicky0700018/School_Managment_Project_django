@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-4">Update Student</h2>
+
+<form method="POST" enctype="multipart/form-data" class="card p-4 shadow">
+    {% csrf_token %}
+
+    <input type="text" name="name" value="{{ student.name }}" class="form-control mb-3">
+
+    <input type="text" name="student_class" value="{{ student.student_class }}" class="form-control mb-3">
+
+    <input type="text" name="city" value="{{ student.city }}" class="form-control mb-3">
+
+    <input type="number" name="age" value="{{ student.age }}" class="form-control mb-3">
+
+    <textarea name="address" class="form-control mb-3">{{ student.address }}</textarea>
+
+    <input type="text" name="roll_no" value="{{ student.roll_no }}" class="form-control mb-3">
+
+    <input type="email" name="email" value="{{ student.email }}" class="form-control mb-3" required>
+
+    <input type="file" name="image" class="form-control mb-3">
+
+    {% if student.image %}
+        <img src="{{ student.image.url }}" width="80" class="mb-3 rounded">
+    {% endif %}
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+{% endblock %}
