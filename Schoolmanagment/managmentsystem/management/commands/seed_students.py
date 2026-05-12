@@ -16,7 +16,7 @@ class Command(BaseCommand):
                     "age": 15,
                     "address": "Street 1, Delhi",
                     "roll_no": "R001",
-                    "email": "aman.sharma@example.com"
+                    "email": "aman.sharma@gmail.com"
             },
             {
                 "name": "Rahul Verma",
@@ -25,7 +25,7 @@ class Command(BaseCommand):
                     "age": 14,
                     "address": "Street 2, Mumbai",
                     "roll_no": "R002",
-                    "email": "rahul.verma@example.com"
+                    "email": "rahul.verma@gmail.com"
             },
             {
                 "name": "Priya Singh",
@@ -34,7 +34,7 @@ class Command(BaseCommand):
                     "age": 13,
                     "address": "Street 3, Lucknow",
                     "roll_no": "R003",
-                    "email": "priya.singh@example.com"
+                    "email": "priya.singh@gmail.com"
             },
             {
                 "name": "Neha Gupta",
@@ -43,7 +43,7 @@ class Command(BaseCommand):
                     "age": 16,
                     "address": "Street 4, Jaipur",
                     "roll_no": "R004",
-                    "email": "neha.gupta@example.com"
+                    "email": "neha.gupta@gmail.com"
             },
             {
                 "name": "Rohit Kumar",
@@ -52,7 +52,7 @@ class Command(BaseCommand):
                     "age": 17,
                     "address": "Street 5, Patna",
                     "roll_no": "R005",
-                    "email": "rohit.kumar@example.com"
+                    "email": "rohit.kumar@gmail.com"
             },
             {
                 "name": "Simran Kaur",
@@ -61,7 +61,7 @@ class Command(BaseCommand):
                     "age": 12,
                     "address": "Street 6, Amritsar",
                     "roll_no": "R006",
-                    "email": "simran.kaur@example.com"
+                    "email": "simran.kaur@gmail.com"
             },
             {
                 "name": "Karan Mehta",
@@ -70,7 +70,7 @@ class Command(BaseCommand):
                     "age": 15,
                     "address": "Street 7, Chandigarh",
                     "roll_no": "R007",
-                    "email": "karan.mehta@example.com"
+                    "email": "karan.mehta@gmail.com"
             },
             {
                 "name": "Anjali Yadav",
@@ -79,7 +79,7 @@ class Command(BaseCommand):
                     "age": 14,
                     "address": "Street 8, Kanpur",
                     "roll_no": "R008",
-                    "email": "anjali.yadav@example.com"
+                    "email": "anjali.yadav@gmail.com"
             },
             {
                 "name": "Vikas Sharma",
@@ -88,7 +88,7 @@ class Command(BaseCommand):
                     "age": 13,
                     "address": "Street 9, Agra",
                     "roll_no": "R009",
-                    "email": "vikas.sharma@example.com"
+                    "email": "vikas.sharma@gmail.com"
             },
             {
                 "name": "Pooja Mishra",
@@ -97,7 +97,7 @@ class Command(BaseCommand):
                     "age": 16,
                     "address": "Street 10, Bhopal",
                     "roll_no": "R010",
-                    "email": "pooja.mishra@example.com"
+                    "email": "pooja.mishra@gmail.com"
             },
             {
                 "name": "Arjun Patel",
@@ -106,7 +106,7 @@ class Command(BaseCommand):
                     "age": 17,
                     "address": "Street 11, Ahmedabad",
                     "roll_no": "R011",
-                    "email": "arjun.patel@example.com"
+                    "email": "arjun.patel@gmail.com"
             },
             {
                 "name": "Sneha Joshi",
@@ -115,7 +115,7 @@ class Command(BaseCommand):
                     "age": 12,
                     "address": "Street 12, Pune",
                     "roll_no": "R012",
-                    "email": "sneha.joshi@example.com"
+                    "email": "sneha.joshi@gmail.com"
             },
             {
                 "name": "Deepak Roy",
@@ -124,7 +124,7 @@ class Command(BaseCommand):
                     "age": 15,
                     "address": "Street 13, Kolkata",
                     "roll_no": "R013",
-                    "email": "deepak.roy@example.com"
+                    "email": "deepak.roy@gmail.com"
             },
             {
                 "name": "Meera Das",
@@ -133,7 +133,7 @@ class Command(BaseCommand):
                     "age": 14,
                     "address": "Street 14, Guwahati",
                     "roll_no": "R014",
-                    "email": "meera.das@example.com"
+                    "email": "meera.das@gmail.com"
             },
             {
                 "name": "Sahil Khan",
@@ -142,7 +142,7 @@ class Command(BaseCommand):
                     "age": 13,
                     "address": "Street 15, Hyderabad",
                     "roll_no": "R015",
-                    "email": "sahil.khan@example.com"
+                    "email": "sahil.khan@gmail.com"
             },
             {
                 "name": "Riya Kapoor",
@@ -151,7 +151,7 @@ class Command(BaseCommand):
                     "age": 16,
                     "address": "Street 16, Noida",
                     "roll_no": "R016",
-                    "email": "riya.kapoor@example.com"
+                    "email": "riya.kapoor@gmail.com"
             },
             {
                 "name": "Yash Thakur",
@@ -160,7 +160,7 @@ class Command(BaseCommand):
                     "age": 17,
                     "address": "Street 17, Indore",
                     "roll_no": "R017",
-                    "email": "yash.thakur@example.com"
+                    "email": "yash.thakur@gmail.com"
             },
             {
                 "name": "Tina Arora",
@@ -169,7 +169,7 @@ class Command(BaseCommand):
                     "age": 12,
                     "address": "Street 18, Ludhiana",
                     "roll_no": "R018",
-                    "email": "tina.arora@example.com"
+                    "email": "tina.arora@gmail.com"
             },
             {
                 "name": "Mohit Jain",
@@ -178,7 +178,7 @@ class Command(BaseCommand):
                     "age": 15,
                     "address": "Street 19, Surat",
                     "roll_no": "R019",
-                    "email": "mohit.jain@example.com"
+                    "email": "mohit.jain@gmail.com"
             },
             {
                 "name": "Kavya Rani",
@@ -187,13 +187,13 @@ class Command(BaseCommand):
                     "age": 14,
                     "address": "Street 20, Varanasi",
                     "roll_no": "R020",
-                    "email": "kavya.rani@example.com"
+                    "email": "kavya.rani@gmail.com"
             },
         ]
 
         for data in students_data:
 
-            student, created = Student.objects.get_or_create(
+            student, created = Student.objects.update_or_create(
                 roll_no=data["roll_no"],
                 defaults={
                     "name": data["name"],
@@ -206,7 +206,7 @@ class Command(BaseCommand):
             )
 
             # Add dummy image
-            if created:
+            if created or not student.image:
                 student.image.save(
                     f"{student.roll_no}.jpg",
                     ContentFile(b""),
@@ -214,5 +214,5 @@ class Command(BaseCommand):
                 )
 
         self.stdout.write(
-            self.style.SUCCESS("20 Students Seeded Successfully!")
+            self.style.SUCCESS("20 Students Seeded/Updated Successfully!")
         )
